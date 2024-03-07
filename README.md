@@ -2,7 +2,7 @@
 1. Unit testing is done till "breather_filter()"
 2. "ITC.NS_historical_data.csv" file is also used as a part of Test case
 3. Not all the functions have their unique py file to test them.
-4. Some of the tests are skipped because they were very basic or can be ignored, but must to unskipped in the final submission
+4. Some of the tests are skipped because they were very basic or can be ignored, but must be unskipped in the final submission
 5. Some tests has some of their test-cases statemented, they also need to be unmarked
 
 **Files Description:**
