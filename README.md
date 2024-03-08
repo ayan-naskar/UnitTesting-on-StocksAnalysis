@@ -4,7 +4,7 @@
 3. Not all the functions have their unique py file to test them.
 4. Some of the tests are skipped because they were very basic or can be ignored, but must be unskipped in the final submission
 5. Some tests has some of their test-cases statemented, they also need to be unmarked
-6. I only did test cases that needs high precision, for only two files(test_zigzag.py and test_breather_filter.py) since i dont know if they are valuable or not. And are only very rare.
+6. I only did test cases that needs high precision, for test_breather_filter.py since i dont know if they are valuable or not. And are very rare.
 
 **Files Description:**
 1. Files starting with test_*.py are for testing.
