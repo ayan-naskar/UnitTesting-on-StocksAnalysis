@@ -31,6 +31,10 @@ class TestZigZagFunction(unittest.TestCase):
     def test_zig_zag_but_very_small_value(self):
         # This edge case breaks the code since while dividing by 100, 
         # last 2 digits are getting changed due to precision problem
+
+        # one solution to this problem is that, we can first analyse the data,
+        # and then scale up the data so that small changes in data can be minimized
+
         df2 = pd.DataFrame({
             'Date': pd.date_range(start='2022-01-01', periods=10, freq='D'),
             'Open': [0.23894756893247100, 0.23894756893247105, 0.23894756893247110, 0.23894756893247108, 0.23894756893247112, 0.23894756893247115, 0.23894756893247114, 0.23894756893247118, 0.23894756893247120, 0.23894756893247122],
